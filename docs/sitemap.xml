@@ -3,63 +3,63 @@
   
     <url>
     
-      <loc>/author/admin/</loc>
+      <loc>/hugo-academic-site/author/admin/</loc>
     </url>
   
     <url>
     
-      <loc>/</loc>
+      <loc>/hugo-academic-site/</loc>
       <priority>0</priority>
     </url>
   
     <url>
     
-      <loc>/author/</loc>
+      <loc>/hugo-academic-site/author/</loc>
       <priority>0</priority>
     </url>
   
     <url>
     
-      <loc>/authors/</loc>
+      <loc>/hugo-academic-site/authors/</loc>
       <priority>0</priority>
     </url>
   
     <url>
     
-      <loc>/categories/</loc>
+      <loc>/hugo-academic-site/categories/</loc>
       <priority>0</priority>
     </url>
   
     <url>
     
-      <loc>/post/</loc>
+      <loc>/hugo-academic-site/post/</loc>
     </url>
   
     <url>
     
-      <loc>/publication_types/</loc>
+      <loc>/hugo-academic-site/publication_types/</loc>
       <priority>0</priority>
     </url>
   
     <url>
     
-      <loc>/publication/</loc>
+      <loc>/hugo-academic-site/publication/</loc>
     </url>
   
     <url>
     
-      <loc>/talk/</loc>
+      <loc>/hugo-academic-site/talk/</loc>
     </url>
   
     <url>
     
-      <loc>/tags/</loc>
+      <loc>/hugo-academic-site/tags/</loc>
       <priority>0</priority>
     </url>
   
     <url>
     
-      <loc>/authors/admin/</loc>
+      <loc>/hugo-academic-site/authors/admin/</loc>
       <priority>0</priority>
     </url>
   
