@@ -9,14 +9,18 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "Wizard of Programming"
+role = "Passionate Software Engineer and Architect"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "PayPal BFS (Business Financing Solutions)", url = "https://www.paypal.com/us/webapps/mpp/business-loans" } ]
+organizations = [ { name = "PayPal", url = "https://www.paypal.com/us/webapps/mpp/business-loans" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "My research interests include distributed robotics, mobile computing and programmable matter."
+bio = """
+  I am a software developer/architect who is incredibly interested in Artificial Intelligence, 
+  Generative Software and a strong interest in JavaScript and its role in current non-traditional 
+  programming such as Nodunio, WebJS, and Functional JavaScript.
+"""
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "contact@alexlapinski.name"
@@ -62,6 +66,11 @@ user_groups = ["Researchers", "Visitors"]
   icon = "docker"
   icon_pack = "fab"
   link = "https://hub.docker.com/u/alexlapinski"
+
+[[social]]
+  icon = "linkedin"
+  icon_pack = "fab"
+  link = "https://www.linkedin.com/in/alexlapinski/"
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
