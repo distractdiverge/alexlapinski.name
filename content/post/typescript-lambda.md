@@ -1,7 +1,7 @@
 +++
 title = "Typescript Lambda"
 date = 2019-03-25T21:58:52-04:00
-draft = true
+draft = false
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
@@ -71,6 +71,11 @@ For example, if we have 100k req. per day, and our execution time changes, we ha
 | 120 sec | $25.63 |
 
 So... if your code is going to take more than 1 or 2 seconds, it'll start to add up, and you might just want an EC2 instance.
+
+#### Burst Execution
+The good news though, is that even if your script runs for the max 500 seconds, and you execute less than 1000 times per month, it'll only cost $0.19 a day, with the maximum memory allocated, or $0.06 per day, with 1GB ram, or free if the max memory is less than 896mb.
+
+What this really means is that Lambdas are REALLY good if you execute something infrequently, and not too bad if you have moderate volume, still less frequently.
 
 ### Storage Cost
 Then if we were to see how the cost increases as our storage does:
