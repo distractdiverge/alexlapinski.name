@@ -1,22 +1,22 @@
 +++
-title = "Serverless Tutorial"
-subtitle = ""
+title = "Serverless IAM Policy"
+subtitle = "And other issues"
 
 # Add a summary to display on homepage (optional).
-summary = ""
+summary = "Initial exploration into using serverless, and getting it setup."
 
 date = 2019-04-03T21:34:50-04:00
-draft = true
+draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = []
+authors = ["Alex Lapinski"]
 
 # Is this a featured post? (true/false)
 featured = false
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
+tags = ["AWS", "NodeJS", "Serverless", "IAM", "CloudFormation", "S3"]
 categories = []
 
 # Projects (optional).
