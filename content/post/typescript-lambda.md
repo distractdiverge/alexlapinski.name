@@ -1,25 +1,16 @@
 +++
 title = "Typescript Lambda"
+summary = "A simple project exploring the creation of an AWS Lambda in Typescript"
 date = 2019-03-25T21:58:52-04:00
-draft = false
+draft = true
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
+tags = ["AWS", "Typescript"]
 categories = ["AWS", "Typescript"]
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
-[image]
-  # Caption (optional)
-  caption = ""
-
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
+authors = ["alexlapinski"]
 +++
 
-# Typescript AWS Lambda Example
 This is a simple project to test out AWS Lambda with Typescript.
 
 In addition, the infrastructure for this project is deployed using terraform.
