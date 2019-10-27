@@ -124,7 +124,8 @@ The full policy is below:
                 "kms:DescribeKey",
                 "kms:ListResourceTags",
                 "kms:GetKeyPolicy",
-                "kms:GetKeyRotationStatus"
+                "kms:GetKeyRotationStatus",
+                "kms:ScheduleKeyDeletion"
             ],
             "Resource": "*"
         }
