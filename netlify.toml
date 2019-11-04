@@ -1,5 +1,4 @@
 [build]
-  functions = "functions"
   command = "hugo"    
   publish = "public"
 
