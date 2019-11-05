@@ -133,6 +133,33 @@ The full policy is below:
 }
 ```
 
+Security Groups (to allow access to the Instance)
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:RevokeSecurityGroupIngress",
+                "ec2:AuthorizeSecurityGroupEgress",
+                "ec2:AuthorizeSecurityGroupIngress",
+                "ec2:UpdateSecurityGroupRuleDescriptionsEgress",
+                "ec2:DescribeSecurityGroupReferences",
+                "ec2:CreateSecurityGroup",
+                "ec2:RevokeSecurityGroupEgress",
+                "ec2:DeleteSecurityGroup",
+                "ec2:DescribeSecurityGroups",
+                "ec2:UpdateSecurityGroupRuleDescriptionsIngress",
+                "ec2:DescribeStaleSecurityGroups"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+```
+
 That's it, these are the 3 IAM Policies that I currently have attached to my group ```devops```. As I learn more, I'll keep this page updated with the minimal policy required by ```Pulumi``` to create the resources I require.
 
 I like to keep the policies separate, and well documented as it will help to ensure they can be reused by various different IaC tools, or frameworks.
