@@ -152,7 +152,12 @@ Security Groups (to allow access to the Instance)
                 "ec2:DeleteSecurityGroup",
                 "ec2:DescribeSecurityGroups",
                 "ec2:UpdateSecurityGroupRuleDescriptionsIngress",
-                "ec2:DescribeStaleSecurityGroups"
+                "ec2:DescribeStaleSecurityGroups",
+                "rds:AuthorizeDBSecurityGroupIngress",
+                "rds:CreateDBSecurityGroup",
+                "rds:DeleteDBSecurityGroup",
+                "rds:RevokeDBSecurityGroupIngress",
+                "rds:DescribeDBSecurityGroups"
             ],
             "Resource": "*"
         }
