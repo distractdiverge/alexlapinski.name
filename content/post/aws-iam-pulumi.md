@@ -165,3 +165,8 @@ That's it, these are the 3 IAM Policies that I currently have attached to my gro
 I like to keep the policies separate, and well documented as it will help to ensure they can be reused by various different IaC tools, or frameworks.
 
 Eventually, I'll combine this all together into it's own little Pulumi stack that I can use to bootstrap a Service User with the correct permissions.
+
+## Pulumi Gotchas
+One thing to be aware of with pulumi, if you're going to leverage the outputs from running a stack to store generated passwords, you'll want to enable secrets when you initially create the stack.
+
+Pulumi can use multiple secrets providers, or just a password. Setting up a new stack using a password allows encryption of the secrets (to get a generated password from a stack).
