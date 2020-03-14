@@ -18,24 +18,30 @@ subtitle = ""
   icon = "js-square"
   icon_pack = "fab"
   name = "JavaScript"
-  description = "90%"
 
 [[feature]]
   icon = "node-js"
   icon_pack = "fab"
   name = "NodeJS"
-  description = "90%"
   
 [[feature]]
   icon = "css3"
   icon_pack = "fab"
   name = "CSS"
-  description = "90%"  
   
 [[feature]]
   icon = "python"
   icon_pack = "fab"
   name = "Python"
-  description = "50%"
+
+[[feature]]
+  icon = "java"
+  icon_pack = "fab"
+  name = "Java"
+
+[[feature]]
+  icon = "microsoft"
+  icon_pack = "fab"
+  name = ".NET"
 
 +++
