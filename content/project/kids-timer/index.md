@@ -29,17 +29,4 @@ url_slides = ""
 url_video = ""
 url_poster = ""
 
-# Custom links (optional).
-#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-# links = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com"}]
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-[image]
-  # Caption (optional)
-  caption = ""
-
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
 +++

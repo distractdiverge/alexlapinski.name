@@ -40,7 +40,7 @@ subtitle = ""
   name = "Java"
 
 [[feature]]
-  icon = "dotnet"
+  icon = "microsoft"
   icon_pack = "fab"
   name = ".NET"
 

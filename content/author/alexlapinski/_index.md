@@ -17,9 +17,11 @@ organizations = [ { name = "PayPal", url = "https://www.paypal.com/us/webapps/mp
 
 # Short bio (displayed in user profile at end of posts)
 bio = """
-  I am a software developer/architect who is incredibly interested in Artificial Intelligence, 
-  Generative Software and a strong interest in JavaScript and its role in current non-traditional 
-  programming such as Nodunio, WebJS, and Functional JavaScript.
+  I am a Software Engineer and Architect. Most of my interests are around software development, service architecture and general tinkering around.
+
+  I typically will play around with tools ranging from DevOps, Infrastructure and other hardware platforms (RapsberryPi) to novel database engines and new software architectures as well as machine learning and artificial intelligence (really just complex computer science).
+
+  When I'm not working, I'll be found playing a plethora of strategy games, or board games with the family.
 """
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
@@ -28,8 +30,12 @@ email = "contact@alexlapinski.name"
 # List (academic) interests or hobbies
 interests = [
   "Software Development",
+  "Software Engineering",
   "Software Architecture",
-  "Machine Learning"
+  "Machine Learning",
+  "Neural Networks",
+  "DevOps",
+  "RapsberryPi"
 ]
 
 # Organizational groups that you belong to (for People widget)
@@ -81,6 +87,8 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a Software Engineer and Architect. Most of my interests are around software development, service architecture and general tinkering around.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+I typically will play around with tools ranging from DevOps, Infrastructure and other hardware platforms (RapsberryPi) to novel database engines and new software architectures as well as machine learning and artificial intelligence (really just complex computer science).
+
+When I'm not working, I'll be found playing a plethora of strategy games, or board games with the family.
